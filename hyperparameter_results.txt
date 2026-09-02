@@ -1,0 +1,148 @@
+TOX21 HYPERPARAMETER TUNING RESULTS
+============================================================
+
+Total configurations tested: 32
+Runs per configuration: 3
+Best accuracy: 0.7046
+
+Best Configuration:
+  n_hidden: 100
+  n_layers: 1
+  learning_rate: 0.001
+  dropout_prob: 0.5
+  n_epochs: 30
+  batch_size: 128
+  weight_positives: True
+
+Individual accuracies: [0.7331848294616251, 0.6884600919952556, 0.6922787629820347]
+
+All Results (sorted by accuracy):
+------------------------------------------------------------
+
+1. Accuracy: 0.7046
+   Hidden: 100, Layers: 1, LR: 0.001
+   Dropout: 0.5, Epochs: 30, Batch: 128
+
+2. Accuracy: 0.7045
+   Hidden: 50, Layers: 1, LR: 0.001
+   Dropout: 0.3, Epochs: 30, Batch: 128
+
+3. Accuracy: 0.7039
+   Hidden: 100, Layers: 1, LR: 0.001
+   Dropout: 0.3, Epochs: 30, Batch: 128
+
+4. Accuracy: 0.7029
+   Hidden: 100, Layers: 1, LR: 0.0005
+   Dropout: 0.3, Epochs: 45, Batch: 128
+
+5. Accuracy: 0.7005
+   Hidden: 100, Layers: 2, LR: 0.001
+   Dropout: 0.3, Epochs: 45, Batch: 128
+
+6. Accuracy: 0.6988
+   Hidden: 50, Layers: 1, LR: 0.0005
+   Dropout: 0.3, Epochs: 30, Batch: 128
+
+7. Accuracy: 0.6974
+   Hidden: 100, Layers: 2, LR: 0.001
+   Dropout: 0.5, Epochs: 45, Batch: 128
+
+8. Accuracy: 0.6967
+   Hidden: 100, Layers: 1, LR: 0.001
+   Dropout: 0.3, Epochs: 45, Batch: 128
+
+9. Accuracy: 0.6949
+   Hidden: 100, Layers: 1, LR: 0.0005
+   Dropout: 0.5, Epochs: 45, Batch: 128
+
+10. Accuracy: 0.6912
+   Hidden: 100, Layers: 1, LR: 0.0005
+   Dropout: 0.3, Epochs: 30, Batch: 128
+
+11. Accuracy: 0.6899
+   Hidden: 100, Layers: 2, LR: 0.001
+   Dropout: 0.5, Epochs: 30, Batch: 128
+
+12. Accuracy: 0.6874
+   Hidden: 100, Layers: 2, LR: 0.0005
+   Dropout: 0.5, Epochs: 30, Batch: 128
+
+13. Accuracy: 0.6851
+   Hidden: 50, Layers: 2, LR: 0.001
+   Dropout: 0.3, Epochs: 45, Batch: 128
+
+14. Accuracy: 0.6844
+   Hidden: 100, Layers: 1, LR: 0.001
+   Dropout: 0.5, Epochs: 45, Batch: 128
+
+15. Accuracy: 0.6790
+   Hidden: 50, Layers: 1, LR: 0.0005
+   Dropout: 0.3, Epochs: 45, Batch: 128
+
+16. Accuracy: 0.6773
+   Hidden: 50, Layers: 1, LR: 0.001
+   Dropout: 0.5, Epochs: 30, Batch: 128
+
+17. Accuracy: 0.6744
+   Hidden: 100, Layers: 2, LR: 0.001
+   Dropout: 0.3, Epochs: 30, Batch: 128
+
+18. Accuracy: 0.6743
+   Hidden: 50, Layers: 1, LR: 0.001
+   Dropout: 0.5, Epochs: 45, Batch: 128
+
+19. Accuracy: 0.6714
+   Hidden: 50, Layers: 1, LR: 0.001
+   Dropout: 0.3, Epochs: 45, Batch: 128
+
+20. Accuracy: 0.6679
+   Hidden: 100, Layers: 2, LR: 0.0005
+   Dropout: 0.5, Epochs: 45, Batch: 128
+
+21. Accuracy: 0.6605
+   Hidden: 100, Layers: 2, LR: 0.0005
+   Dropout: 0.3, Epochs: 30, Batch: 128
+
+22. Accuracy: 0.6605
+   Hidden: 50, Layers: 1, LR: 0.0005
+   Dropout: 0.5, Epochs: 45, Batch: 128
+
+23. Accuracy: 0.6567
+   Hidden: 100, Layers: 1, LR: 0.0005
+   Dropout: 0.5, Epochs: 30, Batch: 128
+
+24. Accuracy: 0.6532
+   Hidden: 50, Layers: 2, LR: 0.001
+   Dropout: 0.5, Epochs: 45, Batch: 128
+
+25. Accuracy: 0.6504
+   Hidden: 100, Layers: 2, LR: 0.0005
+   Dropout: 0.3, Epochs: 45, Batch: 128
+
+26. Accuracy: 0.6490
+   Hidden: 50, Layers: 2, LR: 0.0005
+   Dropout: 0.5, Epochs: 45, Batch: 128
+
+27. Accuracy: 0.6452
+   Hidden: 50, Layers: 2, LR: 0.0005
+   Dropout: 0.3, Epochs: 45, Batch: 128
+
+28. Accuracy: 0.6378
+   Hidden: 50, Layers: 2, LR: 0.0005
+   Dropout: 0.5, Epochs: 30, Batch: 128
+
+29. Accuracy: 0.6298
+   Hidden: 50, Layers: 1, LR: 0.0005
+   Dropout: 0.5, Epochs: 30, Batch: 128
+
+30. Accuracy: 0.6265
+   Hidden: 50, Layers: 2, LR: 0.001
+   Dropout: 0.5, Epochs: 30, Batch: 128
+
+31. Accuracy: 0.6130
+   Hidden: 50, Layers: 2, LR: 0.001
+   Dropout: 0.3, Epochs: 30, Batch: 128
+
+32. Accuracy: 0.5696
+   Hidden: 50, Layers: 2, LR: 0.0005
+   Dropout: 0.3, Epochs: 30, Batch: 128

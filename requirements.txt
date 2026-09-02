@@ -1,0 +1,5 @@
+numpy==1.21.6
+tensorflow==2.10.0
+matplotlib==3.5.3
+deepchem==2.7.1
+scikit-learn==1.0.2
